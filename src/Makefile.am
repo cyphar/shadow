@@ -69,7 +69,7 @@ shadowsgidubins = passwd
 endif
 
 LDADD          = $(INTLLIBS) \
-		 $(top_builddir)/libmisc/libmisc.a \
+		 $(top_builddir)/libmisc/libmisc.la \
 		 $(top_builddir)/lib/libshadow.la \
 		 $(LIBTCB)
 
